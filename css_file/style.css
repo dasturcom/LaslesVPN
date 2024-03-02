@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+/* Headers */
+
+.LaslesVPN_header {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+}
+
+
+.LaslesVPN_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LaslesVPN_nav_box {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.LaslesVPN_nav_box_list > a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F5665;
+    transition: all 0.2s linear;
+}
+
+.LaslesVPN_nav_box_list > a:hover {
+    color: #F53855;
+}
+
+.LaslesVPN_btn {
+    width: 250px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.LaslesVPN_btn_sign_in {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #0B132A;
+    transition: all 0.2s linear;
+}
+
+.LaslesVPN_btn_sign_in:hover {
+    color: #F53855;
+}
+
+.LaslesVPN_btn_Sign_up {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: transparent;
+    border-color: #F53855;
+    border: 2px solid #F53855;
+    color: #F53855;
+    transition: all 0.2s linear;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.LaslesVPN_btn_Sign_up:hover {
+    background-color: #F53855;
+    color: #fff;
+}
+
+
+/* Main sections */
+
+/* Main section want */
+.LaslesVPN_main {
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+    margin-top: 70px;
+}
+
+.LaslesVPN_main_want {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LaslesVPN_main_want_1 {
+    width: 555px;
+}
+
+.LaslesVPN_main_want_title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #0B132A;
+    padding-bottom: 20px;
+}
+
+.LaslesVPN_main_want_title > span {
+    font-weight: 700;
+}
+
+.LaslesVPN_main_want_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    padding-bottom: 50px;
+}
+
+.LaslesVPN_main_want_text > span {
+    font-weight: 500;
+}
+
+.LaslesVPN_main_want_btn {
+    width: 250px;
+    height: 60px;
+    padding: 20px 70px;
+    background-color: #F53838;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 15px 10px rgba(245, 56, 56, 0.35);
+    transition: all 0.2s linear;
+    border: 2px solid #F53838;
+}
+
+.LaslesVPN_main_want_btn:hover {
+    background-color: #ffff;
+    color: #F53838;
+    box-shadow: none;
+    border: 2px solid #F53838;
+}
+
+/* Main section want */
+
+/* Main section ULC */
+.LaslesVPN_main_ulc {
+    width: 1140px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 60px;
+    box-shadow: 0 20px 20px rgba(13, 16, 37, 0.149);
+}
+
+.LaslesVPN_main_Users {
+    width: 150px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.LaslesVPN_main_ulc_div {
+    flex-direction: column;
+    display: flex;
+}
+
+.LaslesVPN_main_ulc_Number {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(11, 19, 42, 1);
+}
+
+.LaslesVPN_main_ulc_name {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(79, 86, 101, 1);
+}
+
+.LaslesVPN_main_ulc_left {
+    height: 125px;
+    border: 1px solid rgba(238, 239, 242, 1);
+}
+
+.LaslesVPN_main_ulc_right {
+    height: 125px;
+    border: 1px solid rgba(238, 239, 242, 1);
+}
+
+.LaslesVPN_main_Locations {
+    width: 170px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.LaslesVPN_main_Servers {
+    width: 150px;
+    justify-content: space-between;
+    display: flex;
+}
+/* Main section ULC */
+
+/* Main section  provide */
+.LaslesVPN_main_provide {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.LaslesVPN_main_provide_title {
+    width: 383px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: rgba(11, 19, 42, 1);
+    margin-bottom: 15px;
+}
+
+.LaslesVPN_main_provide_text {
+    width: 427px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+    margin-bottom: 15px;
+}
+
+.LaslesVPN_main_provide_box {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LaslesVPN_main_provide_list {
+    margin-bottom: 15px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.LaslesVPN_main_provide_img {
+    margin-right: 10px
+}
+
+/* Main section  provide */
+
+/* Main section plan */
+
+.LaslesVPN_main_plan {
+    margin-top: 200px;
+    padding-bottom: 150px;
+    background-color: #fbfbfb;
+}
+
+.LaslesVPN_main_plan_box_1 {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.LaslesVPN_main_plan_title {
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: 500;
+    color: rgba(11, 19, 42, 1);
+}
+
+.LaslesVPN_main_plan_text {
+    width: 555px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.LaslesVPN_main_plan_box {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LaslesVPN_main_plan_list_box_ul {
+    list-style: none;
+}
+
+.LaslesVPN_main_plan_list {
+    width: 330px;
+    height: 760px;
+    text-align: center;
+    padding-top: 80px;
+    border: 2px solid rgba(221, 221, 221, 1);
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+
+.LaslesVPN_main_plan_list:hover {
+    border: 2px solid rgba(245, 56, 56, 1);
+}
+
+.LaslesVPN_main_plan_list_title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    align-items: center;
+    color: rgba(11, 19, 42, 1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.LaslesVPN_main_plan_list_box_list {
+    margin-bottom: 10px;
+}
+
+.LaslesVPN_main_plan_list_box_list > span {
+    text-align: center;
+    width: 230px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LaslesVPN_main_plan_list_box_list > span > img {
+    margin-right: 20px;
+}
+
+.LaslesVPN_main_plan_list_box_list > span > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+}
+
+.LaslesVPN_main_plan_list_btn > span {
+    color: rgba(11, 19, 42, 1);
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    display: block;
+    margin-top: 130px;
+    margin-bottom: 25px;
+    
+}
+
+.LaslesVPN_main_plan_list_btn .btn {
+    text-decoration: none;
+    color: rgba(245, 56, 56, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 13px 63px;
+    border: 2px solid rgba(245, 56, 56, 1);
+    border-radius: 50px;
+    transition: all 0.2s linear;
+}
+
+.LaslesVPN_main_plan_list_btn .btn:hover {
+    color: #fff;
+    background-color: #F53838;
+    box-shadow: 0 10px 10px rgba(245, 56, 56, 0.35);
+}
+
+.LaslesVPN_main_plan_list_btn > p {
+    color: rgba(11, 19, 42, 0.800);
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    /* opacity: 0.6; */
+}
+
+.margin {
+    margin-top: 90px;
+}
+
+.margin_2 {
+    margin-top: 50px; 
+}
+
+.LaslesVPN_main_plan_list_btn > p > span {
+    color: rgba(11, 19, 42, 1);
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* Main section plan */
+
+/* Main section network */
+
+.LaslesVPN_main_network_box_1 {
+    text-align: center;
+}
+
+.LaslesVPN_main_network_title {
+    width: 383px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.LaslesVPN_main_network_text {
+    width: 555px;
+    margin: 0 auto;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.LaslesVPN_main_network_text > span {
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.LaslesVPN_main_network_box_2 {
+    width: 1060px;
+    height: 538px;
+    margin: 0 auto;
+    margin-top: 155px;
+    margin-bottom: 35px;
+}
+
+.LaslesVPN_main_network_logos {
+    width: 1135px;
+    height: 208px;
+    margin: 0 auto;
+}
+
+/* Main section network */
+
+/* Main section customer */
+
+.LaslesVPN_main_customer_box_1 {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.LaslesVPN_main_customer_title {
+    width: 447px;
+    margin: 0 auto;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.LaslesVPN_main_customer_text {
+    width: 555px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 60px;
+}
+
+.LaslesVPN_main_customer_box {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LaslesVPN_main_customer_list {
+    width: 400px;
+    height: 230px;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.LaslesVPN_main_customer_list:hover {
+    border: 2px solid #F53838;
+}
+
+.LaslesVPN_main_customer_list_box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.LaslesVPN_main_customer_list_box_1 {
+    align-items: center;
+    display: flex;
+}
+
+.LaslesVPN_main_customer_list_box_1_Logo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+}
+
+.LaslesVPN_main_customer_list_box_1_text {
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 30px; */
+    padding: 0;
+    opacity: 0.6;
+}
+
+.LaslesVPN_main_customer_list_box_1 > div {
+    margin: 0 20px;
+}
+
+.LaslesVPN_main_customer_list_box_2 {
+    display: flex;
+    align-items: center;
+}
+
+.LaslesVPN_main_customer_list_box_2_span {
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.LaslesVPN_main_customer_list_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0B132A;
+}
+
+.LaslesVPN_main_customer_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.LaslesVPN_main_customer_btn_btn  {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(221, 224, 228, 1);
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.LaslesVPN_main_customer_btn_btn:hover {
+    width: 45px;
+    height: 15px;
+    background-color: #F53838;
+}
+
+.LaslesVPN_main_customer_btn_box_btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: #F53838;
+    transition: all 0.2s linear;
+    margin-left: 20px;
+}
+
+.LaslesVPN_main_customer_btn_box_btn i {
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.LaslesVPN_main_customer_btn_box_btn:hover {
+    color: #fff;
+    background-color: #F53838;
+}
+
+.LaslesVPN_main_customer_btn_box {
+    margin-right: 50px;
+}
+/* Main section customer */
+
+/* MAin section subscribe */
+
+.LaslesVPN_main_subscribe {
+    position: relative;
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    margin: 0 auto ;
+    padding: 50px 70px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    top: 30px;
+    background-color: #fff;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
+}
+
+.LaslesVPN_main_subscribe_box_1_title {
+    width: 371px;
+    height: 80px;
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.LaslesVPN_main_subscribe_box_1_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F5665;
+    margin-top: 20px;
+}
+
+.LaslesVPN_main_subscribe_box_2_btn {
+    width: 250px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #F53838;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 10px 10px #f5383856;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.LaslesVPN_main_subscribe_box_2_btn:hover {
+    background-color: #fff;
+    color: #F53838;
+    box-shadow: none;
+}
+
+/* MAin section subscribe */
+
+/* Footer */
+.LaslesVPN_footer {
+    margin-top: -100px;
+    background-color: #F8F8F8;
+}
+
+.LaslesVPN_footer_container {
+    padding: 180px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LaslesVPN_footer_container_box_1_text {
+    width: 340px;
+    height: 61px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F5665;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.LaslesVPN_footer_container_box_1_text > span {
+    font-weight: 500;
+}
+
+.LaslesVPN_footer_container_box_1_box {
+    display: flex;
+}
+
+.LaslesVPN_footer_container_box_1 > span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #AFB5C0;
+}
+
+.LaslesVPN_footer_container_box_1 > span > span {
+    font-weight: 500;
+}
+
+.LaslesVPN_footer_container_box_2 {
+    width: 75px;
+    height: 280px;
+}
+
+.LaslesVPN_footer_container_box_2 > span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.LaslesVPN_footer_container_box_2 > ul {
+    list-style: none;
+}
+
+.LaslesVPN_footer_container_box_2 > ul > li {
+    margin-top: 10px;
+}
+
+.LaslesVPN_footer_container_box_2 > ul > li > a{
+    text-decoration: none;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.LaslesVPN_footer_container_box_3 {
+    width: 125px;
+    height: 280px;
+}
+
+.LaslesVPN_footer_container_box_3 > span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.LaslesVPN_footer_container_box_3 > ul {
+    list-style: none;
+}
+
+.LaslesVPN_footer_container_box_3 > ul > li {
+    margin-top: 10px;
+}
+
+.LaslesVPN_footer_container_box_3 > ul > li > a{
+    text-decoration: none;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.LaslesVPN_footer_container_box_4 {
+    width: 125px;
+    height: 280px;
+}
+
+.LaslesVPN_footer_container_box_4 > span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.LaslesVPN_footer_container_box_4 > ul {
+    list-style: none;
+}
+
+.LaslesVPN_footer_container_box_4 > ul > li {
+    margin-top: 10px;
+}
+
+.LaslesVPN_footer_container_box_4 > ul > li > a{
+    text-decoration: none;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
